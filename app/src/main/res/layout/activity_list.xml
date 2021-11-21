@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fond">
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:fontFamily="@font/police_titre"
+        android:text="Possible Translations"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/police_titre"
+        android:text="Sentences :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="105dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/icon_translate" />
+
+    <ImageButton
+        android:id="@+id/returnButton"
+        android:layout_width="67dp"
+        android:layout_height="52dp"
+        android:background="#5C5D60"
+        android:rotation="-180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        app:layout_constraintBottom_toTopOf="@+id/returnButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/phrase1"
+        android:layout_width="337dp"
+        android:layout_height="23dp"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Où pouvons-nous trouver un taxi?"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <TextView
+        android:id="@+id/phrase2"
+        android:layout_width="337dp"
+        android:layout_height="23dp"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Excusez moi, je dois y aller!"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrase1"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/phrase3"
+        android:layout_width="337dp"
+        android:layout_height="23dp"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Peut-on reporter la réunion? "
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrase2"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/phrase4"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Est ce que ce chargeur est compatible avec mon appareil ?"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrase3"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/phrase5"
+        android:layout_width="333dp"
+        android:layout_height="23dp"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Pourriez vous m'indiquer où est cette rue?"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrase4"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/phrase6"
+        android:layout_width="337dp"
+        android:layout_height="23dp"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Non merci, je suis allergique"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrase5"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/phrase7"
+        android:layout_width="337dp"
+        android:layout_height="23dp"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Comment je peux vous contacter?"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrase6"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/phrase8"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Connaissez vous une bonne boulangerie dans le coin?"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrase7"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/phrase9"
+        android:layout_width="337dp"
+        android:layout_height="23dp"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Comment je peux acheter des tickets?"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrase8"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/phrase10"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:background="#C5C9DF"
+        android:fontFamily="@font/police_titre"
+        android:text="Pouvez vous nous prendre en photo s'il vous plait?"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrase9"
+        app:layout_constraintVertical_bias="0.083" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
